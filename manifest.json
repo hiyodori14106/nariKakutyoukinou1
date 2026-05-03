@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "NARI Auto Reveal",
+  "version": "1.0",
+  "description": "「違反の可能性」のメッセージのぼかしを自動で解除します",
+  "content_scripts": [
+    {
+      "matches": ["*://nari.oz96.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
